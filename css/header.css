@@ -30,15 +30,12 @@ h1{
 }
 
 @keyframes spin_words{
-
     30%{
         transform: translateY(-100%);
     }
-
     60%{
         transform: translateY(-200%);
     }
-
     90%{
         transform: translateY(-300%);
     }
@@ -49,13 +46,4 @@ h1{
  .wrapper{
      animation:none;
  }
-}
-
-
-.nav_links{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
 }

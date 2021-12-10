@@ -199,6 +199,8 @@
     /* Grid container is here!! */
     grid-gap: 15px 10px;
     display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }
 
 
