@@ -1,0 +1,61 @@
+*, *:before, *:after{
+    padding:0;
+    margin:0;
+    font-weight: 500;
+}
+
+h1{
+    place-items: center;
+}
+
+.wrapper{
+    font-size: 35px;
+    box-sizing: content-box;
+    height: 50px;
+    padding: 10px 30px;
+    display: flex;
+}
+
+.words{
+    overflow: hidden;
+}
+
+.anima{
+    display: block;
+    font-size: xx-large;
+    height: 100%;
+    padding-left: 10px;
+    color: #858F85;
+    animation: spin_words 4s infinite;
+}
+
+@keyframes spin_words{
+
+    30%{
+        transform: translateY(-100%);
+    }
+
+    60%{
+        transform: translateY(-200%);
+    }
+
+    90%{
+        transform: translateY(-300%);
+    }
+}
+
+
+@media screen and (prefers-reduced-motion: reduce) {
+ .wrapper{
+     animation:none;
+ }
+}
+
+
+.nav_links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
