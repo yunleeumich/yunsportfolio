@@ -129,7 +129,7 @@
     color: #fff;
     background-repeat: no-repeat;
     border-radius: 50%;
-    border: 6px solid #fff;
+    border: 6px solid rgb(3, 3, 3);
   }
   @media (min-width: 900px) {
     .timeline__date {
@@ -144,10 +144,12 @@
   .timeline__date-day {
     font-size: 1.35rem;
     font-weight: 600;
+    color: black;
   }
   
   .timeline__date-month {
     font-size: .85rem;
+    color:black;
   }
   
   .timeline__event {
