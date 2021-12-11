@@ -193,8 +193,8 @@
   }
     
 
-/***********!!! Medium devices (landscape tablets, 768px and up) !!!************/
-@media screen and (min-width: 768px) {
+/***********!!! Medium devices (landscape tablets, 1000px and up) !!!************/
+@media screen and (min-width: 1000px) {
   .card-grid{
     /* Grid container is here!! */
     grid-gap: 15px 10px;
@@ -231,7 +231,7 @@
 }
 
 /***********!!! Large devices (laptops/desktops, 992px and up) !!!************/
-@media screen and (min-width: 889px) {
+@media screen and (min-width: 1280px) {
   .card-grid{
       /* Grid container is here!! */
       grid-template-columns: 1fr 1fr 1fr;
